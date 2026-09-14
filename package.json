@@ -1,7 +1,7 @@
 {
   "name": "dsh-anger-alert",
-  "version": "0.1.0",
-  "description": "Anger detector for DSH: when a user message is angry or holds a curse word, inject one logged notice that makes the model open its reasoning with the fixed line 卧槽，用户真的怒了.",
+  "version": "0.2.0",
+  "description": "Anger detector for DSH: when a user message is angry or holds a curse word, the model opens its reasoning with the fixed line 卧槽，用户真的怒了.",
   "type": "module",
   "main": "lib/index.js",
   "exports": {
