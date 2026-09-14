@@ -1,0 +1,7 @@
+# dsh-anger-alert bundle patch.
+# `dsh plugin --profile web add <this package>` appends the package to
+# dsh.profile.bundles and applies this layer, so the plugin mounts with no
+# manual cordis.patch.yml editing.
+- insert:
+    - id: anger-alert
+      name: dsh-anger-alert
